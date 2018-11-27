@@ -1,0 +1,140 @@
+body {
+    /* margin: 0;
+    padding: 0; */
+    font-family: sans-serif;
+}
+
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("./img/image1.jpg");
+    background-repeat: repeat-y;
+    height: 97%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 1px solid;    
+    align-items: center;
+    opacity: 0.70;
+    
+}
+
+.b1 {
+    
+    border: none;
+    color: white;
+    background-color: black;
+    width: 300px;
+    height: 50px;
+    letter-spacing: 4px;
+}
+
+.text1 {
+    text-align: center;
+    padding: 50px;
+}
+
+.pic2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("./img/image2.jpg");
+    background-repeat: repeat-y;
+    height: 97%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 1px solid;    
+    align-items: center;
+    opacity: 0.70;
+}
+
+.b2 {
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.text2 {
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+
+.pic3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("./img/image3.jpg");
+    background-repeat: repeat-y;
+    height: 97%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 1px solid;    
+    align-items: center;
+    opacity: 0.70;
+    
+}
+
+.b3 {
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.text3 {
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+
+.pic4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("./img/image1.jpg");
+    background-repeat: repeat-y;
+    height: 97%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 1px solid;    
+    align-items: center;
+    opacity: 0.70;
+}
+
+.b4 {
+    background-color: black;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 15px;
+    letter-spacing: 4px;
+}
+
+@media only screen and (max-device-width: 800px) {
+    .main {
+        background-attachment: scroll;
+    }
+    .pic2 {
+        background-attachment: scroll;
+    }
+    .pic3 {
+        background-attachment: scroll;
+    }
+    .pic4{
+        background-attachment: scroll;
+    }
+}
